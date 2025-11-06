@@ -1,0 +1,42 @@
+- Not include any other file or folder that those needed for the project. For archiving this you can include a .gitignore file with the files you want git to ignore. - Add the link to your MyST site to the repo (preferably in the 'About' section of your repo on GitHub). - Complete the ai_documentation.txt file with descriptions of how you used AI tools for this assignment, and any prompts and output.   how d i check this with terminalTo verify each item using the terminal:
+
+Check that only required files and folders are present
+
+ls -a
+
+
+Review the output to confirm that only project files plus .gitignore are included.
+
+Verify that .gitignore is in the repo and being tracked
+
+cat .gitignore
+git status
+
+
+Check that your MyST site link is added to the GitHub repo
+This cannot be checked directly in the terminal because it lives in the GitHub interface. You can confirm the remote URL to ensure you are on the right repo:
+
+git remote -v
+
+
+Then open the repo in a browser:
+
+gh repo view --web
+
+
+(Requires GitHub CLI.)
+
+Confirm that ai_documentation.txt exists and is populated
+
+ls
+cat ai_documentation.txt
+
+
+Stage and commit everything once verified
+
+git add .
+git commit -m "Finalize project structure and documentation"
+git push
+
+
+If you want checks for something more specific, describe your directory layout.
