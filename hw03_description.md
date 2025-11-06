@@ -1,3 +1,8 @@
+---
+title: HW03 Description
+draft: true
+---
+
 # Homework 3 - _From Notebooks to Research Packages, Part II_
 
 * **Statistics 159/259, Fall 2025**
