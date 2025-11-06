@@ -5,6 +5,11 @@ project:
   authors:
     - name: "LIGO Scientific Collaboration (LSC)"
     - name: "Ethan Juan Chant"
+  toc:
+    - file: index.md
+      title: "Home"
+    - file: LOSC_Event_tutorial.ipynb
+      title: "LIGO Tutorial"
 
 site:
   options:

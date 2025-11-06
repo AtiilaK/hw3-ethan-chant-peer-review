@@ -1,3 +1,8 @@
+---
+title: Home
+---
+
+
 # STAT 159/259 HW 3
 
 Binder launch:  
