@@ -1,5 +1,4 @@
 version: 1
-
 project:
   title: "STAT 159 HW3"
   authors:
@@ -10,7 +9,6 @@ project:
       title: "Home"
     - file: LOSC_Event_tutorial.ipynb
       title: "LIGO Tutorial"
-
 site:
   options:
     analytics: false
