@@ -2,7 +2,7 @@
 
 # STAT 159/259 – Homework 3
 
-The original project is the LIGO Gravitational Wave Detection tutorial that analyzes real detector data.  
+The original project is the LIGO Gravitational Wave Detection tutorial that analyzes black holes and looks at waves.   
 This assignment reorganizes that code into a clean research package with tests, utilities, and a MyST website.  
 Launch the notebook directly below on Binder.
 
